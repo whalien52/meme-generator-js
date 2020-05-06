@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+</head>
+<body>
+  <div id="container">
+    <form id="meme-generator" action="index.html" method="post">
+      <div id="image-input" class="meme-input">
+        <label for="meme-image">Image URL:</label>
+        <input type="text" name="meme-image">
+      </div>
+      <div id="top-text-input" class="meme-input">
+        <label for="top-text">Top Text:</label>
+        <input type="text" name="top-text">
+      </div>
+      <div id="bottom-text-input" class="meme-input">
+        <label for="bottom-text">Bottom Text:</label>
+        <input type="text" name="bottom-text">
+      </div>
+      <div id="controls" class="meme-input">
+        <input id="submitbtn" type="button" value="Submit">
+        <input id="resetbtn" type="button" value="Reset">
+      </div>
+    </form>
+    <div id="finished-meme">
+    </div>
+  </div>
+</body>
+</html>
